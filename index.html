@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 
 <html lang="en">
   <head>
@@ -39,7 +39,7 @@
         </p>
       </li>
 
-      <!-- Add two more appetizer items with descriptions -->
+      
     </ul>
 
     <h2>Main Courses</h2>
@@ -70,7 +70,7 @@
         </p>
       </li>
 
-      <!-- Add two more main course items with descriptions -->
+      
     </ul>
 
     <h2>Desserts</h2>
@@ -96,3 +96,133 @@
     <p><a href="contact.html">Contact us for reservations</a></p>
   </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <link rel="stylesheet" href="style.css">
+   <nav>
+    <ul> 
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to Bryton Portfolio</h1>
+    <p>Hello! I’m a beginner web developer. Explore my work and skills below.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer, eager to build user-friendly and visually appealing websites.</p>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <div>
+        <video controls>
+          <source src="water video.mp4" type="video/mp4">
+          <source src="video.ogg" type="video/ogg">
+        </video>
+        
+      </div> 
+      <audio src="" ></audio>
+
+      <li>Project 1: <a href="project1.html">E-commerce Website</a></li>
+      <li>Project 2: <a href="project2.html">Portfolio Website</a></li>
+      <li>Project 3: <a href="project3.html">Blog Application</a></li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>My Resume</h2>
+    <table border="5" cellpadding="5" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Experience</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024</td>
+          <td>Started learning HTML, CSS, and JavaScript</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Built my first portfolio and personal projects</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="/submit-form" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Bryton Portfolio.</p>
+  </footer>
+</body>
+</html>
+

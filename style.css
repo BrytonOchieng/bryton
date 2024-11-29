@@ -1,4 +1,16 @@
-body {
-  background-color: aqua;
-  font-style: oblique;
+video {
+  padding-right: 50%;
+  width: 30%;
+  height: auto;
+  transition: cubic-bezier(10%);
+}
+html {
+  background-color: blueviolet;
+}
+nav {
+  background-color: rgb(25, 143, 233);
+}
+nav a {
+  text-align: center;
+  padding: 20px;
 }
